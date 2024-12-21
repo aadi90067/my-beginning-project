@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+
+}
+
+/* contain */
+
+.contain{
+    display: flex;
+    height: 181px;
+    width: 676px;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.profile{
+    height: 190px;
+    width: 150px;
+    
+}
+.profile_photo{
+    background-image: url(use_photo.jpg);
+    background-size: cover;
+    height: 180px;
+    width: 180px;
+    border-radius: 45%;
+}
+
+/* uesname */
+
+.pro{
+
+    margin-left: 80px;
+}
+.por_uesname{
+            display: flex;
+            gap: 30px;
+}
+.por_uesname p{
+    height: 32px;
+    width: 115px;
+    background-color: rgb(220, 217, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+    transition: 3s ease-in-out;
+}
+
+.por_uesname p:hover{
+    color: white;
+    transition: 3s ease-in-out;
+}
+/* info */
+
+.infro{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+.name{
+    margin-top: 20px;
+}
+/* hightlight */
+
+.highlight{
+    display: flex;
+    margin-left: 200px;
+    height: 100px;
+    width: 708px;
+    justify-content: space-between;
+    margin-top: 59px;
+}
+.box1{
+    background-image: url(photo1.jpg);
+    background-size: cover;
+    height: 88px;
+    width: 88px;
+    border-radius: 45%;
+}
+
+.box2{
+    background-image: url(photo2.jpg);
+    background-size: cover;
+    height: 88px;
+    width: 88px;
+    border-radius: 45%;
+}
+
+.box3{
+    background-image: url(photo3.jpg);
+    background-size: cover;
+    height: 88px;
+    width: 88px;
+    border-radius: 45%;
+}
+
+.box4{
+    background-image: url(photo4.jpg);
+    background-size: cover;
+    height: 88px;
+    width: 88px;
+    border-radius: 45%;
+}
+/* post */
+
+.post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* post_photo */
+.post{
+    display: flex;
+}
+.photo_post{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.boox1{
+        background-image: url(post1.jpg);
+        background-size: cover;
+        height: 343px;
+        width: 343px;
+}
+.boox2{
+    background-image: url(post18.jpg);
+    background-size: cover;
+    height: 343px;
+    width: 343px;
+}
+.boox3{
+    background-image: url(post17.jpg);
+    background-size: cover;
+    height: 343px;
+    width: 343px;
+}
+.boox4{
+    background-image: url(post16.jpg);
+    background-size: cover;
+    height: 343px;
+    width: 343px;
+}
+.boox5{
+    background-image: url(post5.jpg);
+    background-size: cover;
+    height: 343px;
+    width: 343px;
+}
+.boox6{
+    background-image: url(post4.jpg);
+    background-size: cover;
+    height: 343px;
+    width: 343px;
+}
+.boox7{
+    background-image: url(post3.jpg);
+    background-size: cover;
+    height: 343px;
+    width: 343px;
+}
+.boox8{
+    background-image: url(post2.jpg);
+    background-size: cover;
+    height: 343px;
+    width: 343px;
+}
