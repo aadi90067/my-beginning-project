@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    font-weight: 300px;
+    line-height: 1.4;
+}
+
+.hero_section{
+    background-image: url(project6.avif);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text_section{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.lg_text{
+    font-size: 68px;
+}
+
+.section_top{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.section_top h2{
+        color: white;
+        padding: 30px;  
+        text-align: center;      
+}
+.work{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    margin: 20px auto;
+    max-width: 1100px;
+}
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    max-width: 320px;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.3s,ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.4);
+}
+.card_container{
+    padding: 20px;
+    text-align: center;
+}
+.card_container h3{
+    margin-bottom: 10px;
+}
+.bottom_section{
+    display: flex;
+}
+.contant{
+    background-color: #515603;
+}
+.about{
+    background-color:#722300 ;
+}
+
+.contant,.about{
+    flex: 1;
+    min-height: 300px;
+    padding: 32px;
+    color: white;
+}
+.contant h1
+,.about h1{
+    font-size: 64px;
+    font-weight: 300px;
+}
+.contant p
+,.about p{
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    text-transform:uppercase ;
+}
