@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    width: 100%;
+    height: 100vh;
+    background-image: url(project4.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.lico{
+    
+    height: 74 ;
+    display: flex;
+}
+
+.logo{
+    height: 70px;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 50px;
+    color: orangered;
+} 
+
+.opction{
+    height: 70px;
+    margin-left: 290px;
+}
+
+.opction ul{
+    color: white;
+    display: flex;
+}
+
+.opction ul a{
+    margin: 30PX;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3 ease-in-out;
+}
+
+.opction ul a:hover{
+    color: orangered;
+    text-decoration: underline white;
+}
+
+.btn{
+    margin-left: 350px;
+    margin-top: 25px;
+}
+
+.btn1{
+    background-color: white;
+    height: 25px;
+    width: 70px;
+    border-radius: 20%;
+    color: black;
+    transition: 0.6 ease-in;
+}
+
+.btn2{
+    background-color: white;
+    height: 25px;
+    width: 70px;
+    border-radius: 20%;  
+    color: black;  
+    transition: 0.6 ease-in;
+}
+
+.btn1:hover{
+    background-color: lightpink;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: lightpink;
+    color: white;
+}
+
+.login_page{
+    text-align: center;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+
+.login_page h2{
+    margin-top: 17px;
+}
+
+.gmail{
+    margin: 13px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid black;
+}
+.gmail::placeholder{
+    color: white;
+}
+
+
+.password{
+    margin: 5px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid black;
+}
+.password::placeholder{
+    color: white;
+}
+
+.btn3{
+    margin-top: 10px;
+    width: 250px;
+    color: rgb(0, 0, 0);    
+    background-color: rgb(240, 240, 241);
+    border-radius: 10px;
+}
+
+.forgot{
+    justify-content: flex-end;
+    font-size: 10px;
+    margin-left: 110px;
+}
